@@ -1,0 +1,7 @@
+.slider {
+  text-align: center;
+}
+
+.slider > .slide {
+  display: none;
+}
