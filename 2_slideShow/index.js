@@ -10,13 +10,13 @@ jQuery(function($){
 
 	$(document).on('click', '.slide-back', function() {
 		imgs.eq(page).addClass('slide');
-		page = page - 1;
+		page--;
 		imgs.eq(page).removeClass('slide');
 	});
 
 	$(document).on('click', '.slide-next', function() {
 		imgs.eq(page).addClass('slide');
-		page = page + 1;
+		page++;
 		imgs.eq(page).removeClass('slide');
 	});
 
